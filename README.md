@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Lembretes
+
+1. ng serve (Dentro da pasta raiz da aplicação) - Sobe a aplicação em http://localhost:4200;
+
+2. Adicionar o conteúdo abaixo ao arquivo .browserslistrc para evitar uma mensagem de erro ao executar o "ng build";
+
+not ios_saf 15.2-15.3
+
+not safari 15.2-15.3
+
+3. ng build (Dentro da pasta raiz da aplicação) - Converte a aplicação Angular inteira para JavaScript, gerando a subpasta dist/<subpasta da aplicação> com os arquivos que devem ser publicados no servidor web;
+
+4. npm install -g http-server - Instala um servidor web local;
+
+5. http-server.cmd (Dentro da subpasta dist/<subpasta da aplicação> gerada pelo "ng build") - Sobe o servidor web local que serve a aplicação através de http://localhost:8080.
